@@ -14,7 +14,7 @@ export default {
     props: ["item"],
     methods: {
         markComplete () {     
-            //change state of completed --boolean       
+        //change state of completed --boolean       
           this.item.completed =  !this.item.completed;
         }
     }
